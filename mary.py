@@ -65,8 +65,8 @@ if __name__ == '__main__':
 	print(program_name)
 	arguments = sys.argv[1:]
 
-	if arguments[0] == "add":
-		mary.add_messages_to_margaret(arguments[1], arguments[2])
+	
+	mary.add_messages_to_margaret("Mary", arguments[0])
 
 	if arguments[0] == "remove":
 		mary.remove_messages(arguments[1], arguments[2])
